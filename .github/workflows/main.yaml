@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3  # Updated to v3 to ensure compatibility with Node.js 16
 
       - name: Build, Push and Release a Docker container to Heroku.
-        uses: gonuit/heroku-docker-deploy@v1.3.3  # Still on v1.3.3 as no new version is available
+        uses: gonuit/heroku-docker-deploy@v3.12.12  # Still on v1.3.3 as no new version is available
         with:
           # The email address associated with your Heroku account.
           email: ${{ secrets.HEROKU_EMAIL }}
