@@ -38,7 +38,7 @@ git push origin main
 
 To setup CI/CD pipeline in heroku we need 3 information
 1. Heroku email id = surajagasti92@gmail.com
-2. Heroku_API_key = HRKU-c30b74ec-9bcb-410e-aadb-44f0bb3a8c10
+2. Heroku_API_key <>
 3. Heroku app_name = ml-regression-app1
 
 
